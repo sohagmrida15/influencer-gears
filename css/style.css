@@ -1,0 +1,130 @@
+:root {
+    --primary: #3A3A3A;
+    --gray: #18191F;
+    --blue: #0A0826;
+    --white: #ffffff;
+    --pink: #E02C6D;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    max-width: 1080px;
+    margin: auto auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Style */
+header {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+/* Nav Related style */
+nav,
+.nav-content,
+.nav-content ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-title {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-content li a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.nav-content img {
+    width: 28px;
+}
+
+/* Banner Section Style */
+.banner {
+    display: flex;
+    margin: 50px auto;
+}
+
+.banner-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title {
+    color: var(--primary);
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 5px 0px;
+}
+
+.banner-description {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+button {
+    justify-content: center;
+    width: 13rem;
+    display: flex;
+    padding: 0 25px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 2.5rem;
+    background: var(--pink);
+}
+
+.banner button img {
+    width: 1.5rem;
+}
+
+.banner button p {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.banner-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-image: url('../images/Circle\ design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-img img{
+    width: 80%;
+}
+
+/* Sponser Section Style */
+.sponser{
+    margin: 100px auto;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.sponser-col{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
